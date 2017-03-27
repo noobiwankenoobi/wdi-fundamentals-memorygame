@@ -1,6 +1,16 @@
 body {
+	font-family: "Raleway", sans-serif;
 	text-align: center;
 	margin: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
 
 header {
@@ -16,7 +26,7 @@ nav {
 
 main {
 	width: 850px;
-	margin: 35px auto 35px auto;
+	margin: 35px auto;
 }
 
 img {
@@ -25,24 +35,17 @@ img {
 
 
 
-p.copyright {
+.copyright {
 	font-family: "Raleway";
 	float: left;
 }
 
-p.message {
-	font-family: "Raleway";
+.message {
+	font-family: "Raleway", sans-serif;
 	float: right;
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
-}
+
 
 .name {
 	color: #F15B31;
@@ -52,7 +55,7 @@ p.message {
 h1 {
 	text-transform: uppercase;
 	font-family: "Raleway", sans-serif;
-	color: #0D2C40;
+	color: white;
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size: 45px ;
@@ -84,8 +87,13 @@ h2 {
 	font-size: 20px;
 }
 
-p.main {
-	font-family: "Droid Serif"
+p {
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+}
+
+.instructions {
+	font-family: "Droid Serif", serif;
 	line-height: 26px;
 	font-size: 18px;
 	font-weight: 400;
