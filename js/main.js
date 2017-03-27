@@ -12,7 +12,9 @@ cardsInPlay.push(cardOne);
 
 cardsInPlay.push(cardTwo);
 
-if (cardsInPlay.length === 2) {
+
+
+var checkForMatch = function () {
 	if (cardsInPlay[0] === cardsInPlay[1]) {
 		alert('You found a match!');
 	}
@@ -20,16 +22,6 @@ if (cardsInPlay.length === 2) {
 		alert('Sorry, try again.');
 	}
 }
-
-
-// var checkForMatch = function () {
-// 	if (cardsInPlay[0] === cardsInPlay[1]) {
-// 		alert('You found a match!');
-// 	}
-// 	else {
-// 		alert('Sorry, try again.');
-// 	}
-// }
 
 
 
